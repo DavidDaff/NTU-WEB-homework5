@@ -3,7 +3,7 @@
 .header{
     width:100%;
     border: #fff solid;
-    height: 100px;
+/*    height: 100px;*/
     background-color: aqua;
     font-size: 50px;
     color:#fff;
@@ -15,7 +15,7 @@
 .nav{
     width:100%;
     border: #fff solid;
-    height: 40px;
+/*    height: 40px;*/
     background-color: yellow;
     font-size: 30px;
     color:#fff;
@@ -27,7 +27,7 @@
 .sidebar{
     width:21%;
     border: #fff solid;
-    height: 400px;
+/*    height: 400px;*/
     background-color: #0031ff;
     font-size: 50px;
     color:#fff;
@@ -39,7 +39,7 @@
 .main{
     width:100%;
     border: #fff solid;
-    height: 400px;
+/*    height: 400px;*/
     background-color: #00ff4e;
     font-size: 50px;
     color:#fff;
@@ -51,7 +51,7 @@
 .footer{
     width:100%;
     border: #fff solid;
-    height: 80px;
+/*    height: 80px;*/
     background-color: #ff9d00;
     font-size: 50px;
     color:#fff;
@@ -97,4 +97,28 @@
 .submenu li:hover{
     color:gray;
     background: white;
+}
+.fix{
+    position: fixed;
+    height: 80px;
+    width: 80px;
+    top: 570px;
+    left: 1240px;
+/*    background-color: #ccc;*/
+    border: #ff0000 solid;
+    border-radius: 10px;
+}
+.fix div{
+    position: relative;
+    top: 12px;
+    border-radius: 50%;
+    background-color: #ff0000;
+    font-size: 30px;
+    width:50px;
+    height:50px;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    margin: auto;
+    
 }
